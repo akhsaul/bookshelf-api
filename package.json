@@ -1,7 +1,7 @@
 {
   "name": "bookshelf-api",
   "version": "1.0.0",
-  "description": "https://www.dicoding.com/academies/261/tutorials/14967",
+  "description": "A Bookshelf-API for https://www.dicoding.com/academies/261/tutorials/14967",
   "main": "index.js",
   "scripts": {
     "start": "node ./src/server.js",

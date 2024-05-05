@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_akhsaul_bookshelf_api_1714930518670-push-trigger-input-set
+  identifier: Build_akhsaul_bookshelf_api_1714930518670pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_akhsaul_bookshelf_api_1714930518670
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>

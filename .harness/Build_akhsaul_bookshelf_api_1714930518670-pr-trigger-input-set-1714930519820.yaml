@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_akhsaul_bookshelf_api_1714930518670-pr-trigger-input-set
+  identifier: Build_akhsaul_bookshelf_api_1714930518670prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_akhsaul_bookshelf_api_1714930518670
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
